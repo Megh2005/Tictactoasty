@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Display Game Status -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player X's Turn"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp" />
+
+    <!-- Tic Tac Toe Board -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:padding="16dp"
+        android:id="@+id/gridLayout"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp" />
+
+    </GridLayout>
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:paddingTop="0dp"
+        android:text="Reset Game"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
