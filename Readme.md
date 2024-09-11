@@ -40,11 +40,7 @@ _Include screenshots of your app here._
 
 ## Contributions
 
-Contributions, issues, and feature requests are welcome! Please check out the [issues page](https://github.com/yourusername/tictactoasty/issues) for details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Contributions, issues, and feature requests are welcome! Please check out the [issues page](https://github.com/Megh2005/tictactoasty/issues) for details.
 
 ---
 
